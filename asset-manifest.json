@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/%7Breactwebsite%7D/static/css/main.52d21106.css",
-    "main.js": "/%7Breactwebsite%7D/static/js/main.48edae17.js",
+    "main.css": "/%7Breactwebsite%7D/static/css/main.1736b4d8.css",
+    "main.js": "/%7Breactwebsite%7D/static/js/main.e042a729.js",
     "static/media/home.png": "/%7Breactwebsite%7D/static/media/home.faeeef06d446bcd9b92f.png",
     "static/media/about.png": "/%7Breactwebsite%7D/static/media/about.50c22f48cfd6038b3e5a.png",
     "static/media/appdevelopment.png": "/%7Breactwebsite%7D/static/media/appdevelopment.ff420f0cf7e0297f044c.png",
@@ -11,11 +11,11 @@
     "static/media/software-dev.jpg": "/%7Breactwebsite%7D/static/media/software-dev.206015d7403bfa51e037.jpg",
     "static/media/webdevlopment.jpg": "/%7Breactwebsite%7D/static/media/webdevlopment.0dca5e8ae21d41baf1ae.jpg",
     "index.html": "/%7Breactwebsite%7D/index.html",
-    "main.52d21106.css.map": "/%7Breactwebsite%7D/static/css/main.52d21106.css.map",
-    "main.48edae17.js.map": "/%7Breactwebsite%7D/static/js/main.48edae17.js.map"
+    "main.1736b4d8.css.map": "/%7Breactwebsite%7D/static/css/main.1736b4d8.css.map",
+    "main.e042a729.js.map": "/%7Breactwebsite%7D/static/js/main.e042a729.js.map"
   },
   "entrypoints": [
-    "static/css/main.52d21106.css",
-    "static/js/main.48edae17.js"
+    "static/css/main.1736b4d8.css",
+    "static/js/main.e042a729.js"
   ]
 }
