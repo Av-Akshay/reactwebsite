@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
 const Common = (props) => {
     return (
         <>
@@ -8,8 +9,8 @@ const Common = (props) => {
                 <div className='container-fluid '>
                     <div className='container-fluid mx-auto row'>
                         <div className='col-10 mx-auto'>
-                            <div className='row d-flex align-items-center justify-content-center'>
-                                <div className='col-md-6 col-10 d-flex justify-content-center order-md-1 order-2 flex-column
+                            <div className='row d-flex align-items-center justify-content-center center_row'>
+                                <div className='col-md-6 col-12 d-flex justify-content-center order-md-1 order-2 flex-column
                                 text-md-start text-center' >
                                     <h1>
                                         {props.heading} <strong className='brand-name'> Akshay Chauhan</strong>
@@ -21,7 +22,7 @@ const Common = (props) => {
                                         <NavLink to={props.path} className="btn btn-outline-primary">{props.button}</NavLink>
                                     </div>
                                 </div>
-                                <div className='col-md-6 col-10 pt-5 pt-lg-0 order-1 order-md-2 ps-md-0 ps-5'>
+                                <div className='col-md-6 col-12 pb-md-0 pt-0 pt-md-5 pt-lg-0 order-1 order-md-2 float-end ps-5 Animated_image '>
                                     <img src={props.Image} alt="animated-logo" className='img-fluid animated' />
                                 </div>
                             </div>
@@ -30,6 +31,7 @@ const Common = (props) => {
 
                 </div>
             </section>
+
         </>
     )
 }

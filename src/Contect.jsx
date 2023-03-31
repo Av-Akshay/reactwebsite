@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 const Contect = () => {
     const [data, setdata] = useState({
-        Fullname: "",
-        phone: "",
-        email: "",
-        msg: ""
+        Fullname: " ",
+        phone: " ",
+        email: " ",
+        msg: " "
     });
     const InputEvent = (event) => {
         const { name, value } = event.target;
@@ -23,13 +23,19 @@ const Contect = () => {
 
     const formsubmit = (A) => {
         A.preventDefault();
-        alert(`My name is ${data.Fullname}. My phone number is ${data.phone} and my email is ${data.email}`);
-        setdata({
-            Fullname: "",
-            phone: "",
-            email: "",
-            msg: ""
-        })
+        console.log(data.Fullname)
+        if (data.Fullname && data.phone && data.email && data.msg) {
+            alert(`My name is ${data.Fullname}. My phone number is ${data.phone} and my email is ${data.email}`);
+            setdata({
+                Fullname: "",
+                phone: "",
+                email: "",
+                msg: ""
+            })
+
+        } else {
+            alert("please fill the all details")
+        }
     };
 
 
@@ -37,8 +43,8 @@ const Contect = () => {
     return (
         <>
 
-            <div className='container contect_div d-flex flex-column justify-content-center'>
-                <div className='my-5 text-center'>
+            <div className='container contect_div d-flex flex-column justify-content-center '>
+                <div className='my-3 my-md-5 text-center'>
                     <h1>Contact Us</h1>
                 </div>
                 <div className='row'>
@@ -55,7 +61,7 @@ const Contect = () => {
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-                                <input type="text" class="form-control"
+                                <input type="number" class="form-control"
                                     id="exampleFormControlInput1"
                                     name="phone"
                                     value={data.phone}
@@ -86,6 +92,7 @@ const Contect = () => {
                     </div>
                 </div>
             </div>
+
         </>
     )
 }
